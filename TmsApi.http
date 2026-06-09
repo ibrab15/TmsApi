@@ -1,0 +1,6 @@
+@TmsApi_HostAddress = http://localhost:5271/api/assessments/results
+
+GET {{TmsApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
