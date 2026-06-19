@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Documents\\GitHub\\TmsApi\\TmsApi\\TmsApi.csproj": {}
+    "C:\\Users\\Administrator\\Documents\\GitHub\\TmsApi\\TmsApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Documents\\GitHub\\TmsApi\\TmsApi\\TmsApi.csproj": {
+    "C:\\Users\\Administrator\\Documents\\GitHub\\TmsApi\\TmsApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\TmsApi\\TmsApi\\TmsApi.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\TmsApi\\TmsApi.csproj",
         "projectName": "TmsApi",
-        "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\TmsApi\\TmsApi\\TmsApi.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\TmsApi\\TmsApi.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\TmsApi\\TmsApi\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\TmsApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -45,6 +45,16 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[10.0.9, )"
+            },
+            "Scalar.AspNetCore": {
+              "target": "Package",
+              "version": "[2.16.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
